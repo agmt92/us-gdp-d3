@@ -1,6 +1,7 @@
 # US GDP Visualization
 
 This project visualizes the US Gross Domestic Product (GDP) data using a bar chart with D3.js. The data is sourced from a JSON file hosted on GitHub and includes quarterly GDP data from 1947 to 2015.
+[View it here](https://agmt92.github.io/us-gdp-d3/)
 
 ## Table of Contents
 

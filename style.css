@@ -1,0 +1,77 @@
+body {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000000, #434343);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #787878;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  position: relative;
+  background: linear-gradient(to bottom, #ffffff, #5f5f5f);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.bar {
+  fill: steelblue;
+  stroke: #104851;
+  stroke-width: 1px;
+  transition: fill 0.3s;
+}
+
+.bar:hover {
+  fill: darkorange;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #333;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  fill: #333;
+  font-size: 12px;
+}
+
+.axis-label {
+  fill: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+#chart-title {
+  text-anchor: middle;
+  fill: #333;
+  font-size: 24px;
+  font-weight: bold;
+  transform: translate(400px, -20px);
+}
+
